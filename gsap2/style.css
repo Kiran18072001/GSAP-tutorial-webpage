@@ -1,0 +1,70 @@
+@font-face {
+    font-family: head;
+    src: url("./Heading-Now-Variable.ttf");
+}
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#loader{
+    height: 100vh;
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+}
+
+#loader h1{
+    font-size: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000;
+}
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+    overflow: hidden;
+}
+
+#page1 h1{
+    text-transform: uppercase;
+    font-family: head;
+    font-size: 38vw;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    font-stretch: 260%;
+    white-space: nowrap;
+    font-weight: 900;
+}
+
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: #816464;
+}
+
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-color: #4e3636;
+    padding: 50px;
+}
+
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: bisque;
+}
